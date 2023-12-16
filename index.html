@@ -5,22 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Example</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        
-       
-        <li class="search-container">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
-        </li>
-    </ul>
-
+    <div class="lang">
+        <i class="fa fa-globe" id="globe"></i>
+        <p class="language">English</p>
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <p class="contact">Contact Us 800.444.2373 | Ouote List (0) | Login</p>
+    <header class="navbar">
+        <span>FASTEST</span>
+        <div class="menu">
+            <ul>
+                <li><a href="#">PRODUKTS</a></li>
+                <li><a href="#">MAINTENANCE</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa fa-search fa-lg" id="search"></i>
+                <input class="one" type="search" placeholder="Search">
+            </div>
+        </div>
+    </header>
 </body>
 </html>
